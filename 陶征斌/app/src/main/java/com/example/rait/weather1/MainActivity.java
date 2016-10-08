@@ -23,4 +23,11 @@ public class MainActivity extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
+    public void onClick(View view)
+    {
+        startActivity(new Intent("AddActivity"));
+
+    }
+
+
 }
